@@ -1,0 +1,43 @@
+<?php
+
+$_CONFIG = array(
+    'lang' => 'id',                             // Bahasa Default
+    'qrcodes_dir' => 'qrcodes',                 // Direktori QR Codes
+    'delete_old_files' => true,                 // Hapus file lama secara berkala
+    'file_lifetime' => 1,                       // Hapus file yang lebih lama dari..(jam) dari /qrcodes_dir/
+    'uploader' => true,                         // Biarkan pengguna mengunggah logo mereka sendiri
+    'qr_bgcolor' => '#FFFFFF',                  // Warna latar belakang default untuk kode qr yang dihasilkan
+    'qr_color' => '#000000',                    // Warna latar depan default untuk kode qr yang dihasilkan
+    'session_name' => 'qrSession',              // Nama sesi khusus untuk skrip || FALSE
+    'placeholder' => 'images/placeholder.svg',  // Placeholder Default
+    'link' => true,                             // Aktifkan tab Link
+    'text' => true,                             // Aktifkan tab Teks
+    'email' => true,                            // Aktifkan tab Email
+    'location' => true,                         // Aktifkan tab Lokasi
+    'tel' => true,                              // Aktifkan tab Telepon
+    'sms' => true,                              // Aktifkan tab SMS
+    'whatsapp' => true,                         // Aktifkan tab WhatsApp
+    'skype' => true,                            // Aktifkan tab Skype
+    'zoom' => true,                             // Aktifkan tab Zoom
+    'wifi' => true,                             // Aktifkan tab WiFi
+    'vcard' => true,                            // Aktifkan tab V-Card
+    'event' => true,                            // Aktifkan tab Acara
+    'paypal' => true,                           // Aktifkan tab PayPal
+    'bitcoin' => true,                          // Aktifkan tab BitCoin
+    'default_tab' => '#link',                   // Opsi Tersedia: #link | #text | #email | #location | #tel | #sms | #whatsapp | #skype | #zoom | #wifi | #vcard | #event | #paypal | #bitcoin
+    'detect_browser_lang' => false,             // Mendeteksi Bahasa Browser
+    'google_api_key' => 'YOUR-API-KEY',         // https://developers.google.com/maps/documentation/javascript/get-api-key#get-an-api-key
+    'lat' => '40.7127837',                      // Garis lintang awal untuk peta lokasi
+    'lng' => '-74.00594130000002',              // Garis bujur awal untuk peta lokasi
+    'color_primary' => false,                   // Warna utama, digunakan untuk tombol dan latar belakang header. atur warna #hex atau false untuk mendapatkan warna acak
+    'layout' => 'classic',                      // Tata letak utama: 'classic' || 'vertical'
+    'sidebar' => 'right',                       // Posisi Sidebar: 'right' || 'left'
+    'accordion' => true,                        // Ciutkan menu opsi: benar || PALSU
+    'rounded_buttons' => '["tabnav", "options", "save"]',   // Tombol bulat selektif: '["tabnav", "options", "save"]' || false
+    'precision' => 'Q',                         // Tersedia: L, M, Q, H
+    'relative_path' => '',                      // Gunakan opsi ini jika Anda menempatkan index.php utama di lokasi yang berbeda, ini harus menjadi jalur direktori QR utama, relatif terhadap indeks
+    'default_size' => '700',                    // Ukuran default kode QR akhir. nilai yang tersedia: '200', '300', '400', '500', '600', '700', '800'
+    'brand_logo' => false,                      // set true untuk memaksa gambar pertama /images/watermarks/ sebagai logo default
+    'options' => ['colors', 'design', 'logo', 'frame', 'options'], // available options ['colors', 'design', 'logo', 'frame', 'options']
+    'debug_mode' => false,                       // Set true untuk melacak kesalahan
+    );

@@ -1,14 +1,15 @@
 <p><a href="https://www.buymeacoffee.com/ardean"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="ardean" /></a><a href="https://ko-fi.com/ardean"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="ardean" /></a></p><br><br>
 
 ![Logo](https://i.imgur.com/JTB841z.png)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
 # QR Code Generator
 
  Unggah logo Anda, pilih warna khusus, pilih pola, dan unduh kode QR. Format yang tersedia: .png, .svg.
 
  ![image](https://camo.envatousercontent.com/857ed2bda2fafa49ea01a9d76f1d1a5ebb042e72/68747470733a2f2f76656e6f2e65732f6173736574732f71726364722f71726364722d64656d6f2e6769663f763d342e30)
-
+ 
+ ![images](https://i.imgur.com/nKrrmRQ.jpg)
+ 
 # Fitur-fitur
 
 - Color picker

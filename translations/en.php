@@ -1,7 +1,7 @@
 <?php
 
 $_translations = array(
-    'title' => 'QRCDR',
+    'title' => 'QR',
     'description' => 'Online QR Code generator',
     'tags' => 'qrcode, php, script',
     '2FA' => '2FA',
